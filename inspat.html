@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title> Insert Patient Details </title>
+<link rel="stylesheet" href="patient.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1><a href="home.html"><i class="fa fa-home"></i>HomePage</a></h1>
+    <div class="main">
+        <h1> Enter Patient Details: </h1>
+        <form action="inspat.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        Name :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Blood Group:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Blood Group" name="bg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender :
+                    </td>
+                    <td>
+                        Male<input type="radio" name="gender" value="Male">
+                 Female<input type="radio" name="gender" value="Female">
+                 TransGender<input type="radio" name="gender" value="Transgender"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Disease :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Disease" name="ds">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hospital Admitted:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Hospital Admitted" name="hp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email-Id :
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Patient Id :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Patient Id" name="id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone.no :
+                    </td>
+                    <td>
+                        <input type="number" placeholder="****" name="phno">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address :
+                    </td>
+                    <td>
+                        <textarea class="textarea" rows="4" cols="30" name="addr" placeholder="Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" name="">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

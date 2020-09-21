@@ -1,0 +1,11 @@
+h1 a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+h1 .fa 
+{
+    text-align: center;
+    margin: 8px;
+}

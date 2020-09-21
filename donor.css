@@ -1,0 +1,68 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background-image: url(purple-petaled-flower-on-white-surface-934011.jpg);
+    -webkit-backgroung-size:cover;
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1 a
+{
+    text-decoration: none;
+    color: lightslategray;
+}
+h1 .fa 
+{
+    margin: 8px;
+}
+.main
+{
+    width: 400px;
+    height: 420px;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    box-shadow: 8px 8px 50px #000;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: lightslategray;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: cursive;
+}
+.main input
+{
+    width: 100%;
+}
+.main input[type=text],.main input[type=email],.main input[type=number],.main textarea
+{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: aliceblue;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(10, 8, 8);
+}
+
+.main input[type=submit]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #f6648b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
